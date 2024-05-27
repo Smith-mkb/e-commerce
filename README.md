@@ -1,2 +1,2 @@
 # e-commerce
-teste de jsonplaceholder avec mot repository proposa de fake data
+teste de jsonplaceholder avec mon repository proposant de fake data
