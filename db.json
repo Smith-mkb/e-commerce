@@ -1,1 +1,87 @@
-
+[{
+    idLivraison: "123456",
+    client: {
+      nom: "Jean Dupont",
+      contact: "0828280828",
+      email: "jean.dupont@example.com",
+      imageProfil:
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    adresseLivraison: "123 Rue de la République, 75001 Paris, France",
+    produits: [
+      {
+        nom: "Produit A",
+        description: "Description du produit A",
+        quantite: 2,
+        poids: "1kg",
+        dimensions: "10x10x10 cm",
+        imageProduit:
+          "https://images.unsplash.com/photo-1505751171710-1f6d0ace5a85?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+      {
+        nom: "Produit B",
+        description: "Description du produit B",
+        quantite: 1,
+        poids: "500g",
+        dimensions: "5x5x5 cm",
+        imageProduit:
+          "https://images.unsplash.com/photo-1505751171710-1f6d0ace5a85?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+    ],
+    statut: "En cours",
+    livreurAssigne: "Paul Martin",
+    dateLivraison: "2024-05-25T10:00:00Z",
+    priorite: "Haute",
+  },
+  {
+    idLivraison: "123457",
+    client: {
+      nom: "Marie Dubois",
+      contact: "0828280828",
+      email: "marie.dubois@example.com",
+      imageProfil:
+        "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    adresseLivraison: "456 Avenue de la Liberté, 69001 Lyon, France",
+    produits: [
+      {
+        nom: "Produit C",
+        description: "Description du produit C",
+        quantite: 3,
+        poids: "2kg",
+        dimensions: "20x15x10 cm",
+        imageProduit:
+          "https://images.unsplash.com/photo-1505751171710-1f6d0ace5a85?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+    ],
+    statut: "En attente",
+    livreurAssigne: "Sophie Bernard",
+    dateLivraison: "2024-05-26T15:00:00Z",
+    priorite: "Moyenne",
+  },
+  {
+    idLivraison: "123458",
+    client: {
+      nom: "Pierre Leroy",
+      contact: "0828280828",
+      email: "pierre.leroy@example.com",
+      imageProfil:
+        "https://plus.unsplash.com/premium_photo-1689551670902-19b441a6afde?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    adresseLivraison: "789 Boulevard des Champs, 13001 Marseille, France",
+    produits: [
+      {
+        nom: "Produit D",
+        description: "Description du produit D",
+        quantite: 5,
+        poids: "3kg",
+        dimensions: "30x20x15 cm",
+        imageProduit:
+          "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+    ],
+    statut: "Livrée",
+    livreurAssigne: "Alexandre Durand",
+    dateLivraison: "2024-05-22T12:00:00Z",
+    priorite: "Basse",
+  },]
